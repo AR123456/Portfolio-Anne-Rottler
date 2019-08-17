@@ -73,7 +73,17 @@ section h2 {
     line-height: 2.5rem;
   }
 }
-
+.cursive {
+  font-family: "Sacramento", cursive;
+  font-size: 5.62rem;
+  text-emphasis: bold;
+}
+.text-blue {
+  color: #66bfbf;
+}
+.pro {
+  text-decoration-line: underline;
+}
 .btn-xl {
   padding: 1rem 1.75rem;
   font-size: 1.25rem;
@@ -195,6 +205,9 @@ header.masthead h2 {
   header.masthead h2 {
     font-size: 1.75em;
   }
+}
+.bg-blue {
+  background-color: #e4f9f5;
 }
 
 .portfolio {
