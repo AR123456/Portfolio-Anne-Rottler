@@ -11,6 +11,7 @@
   gtag('config', 'UA-143753082-2');
 </script>
 
+
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -439,7 +440,7 @@
 
     <div class="copyright py-4 text-center text-white">
       <div class="container">
-        <small>Copyright &copy; Anne Rottler 2020</small>
+        <small >Copyright &copy; Anne Rottler <span id="year"></span></small>
       </div>
     </div>
 
@@ -799,5 +800,9 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/freelancer.min.js"></script>
+    <script>
+      let date = new Date().getFullYear();
+      document.getElementById("year").innerHTML =date;
+    </script>
   </body>
 </html>
